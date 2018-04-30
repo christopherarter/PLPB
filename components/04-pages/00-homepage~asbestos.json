@@ -1,0 +1,20 @@
+{
+  "siteID" : "asbestos",
+  "sitename" : "Asbestos.com",
+  "hero": {
+    "image": "https://www.asbestos.com/wp-content/uploads/home-updated-hero-bkng.jpg",
+    "title": "A world of support for families affected by mesothelioma",
+    "subtitle": null,
+    "description": "<p>At Asbestos.com, we’ve been providing free help and hope to families affected by mesothelioma for more than 10 years. Watch our video and learn more about us.</p>",
+    "buttons": [
+      {
+        "copy" : "Find Out How We Help",
+        "modifiers" : ["primary"]
+      },
+      {
+      	"copy" : "Watch How We're Different",
+      	"modifiers": ["outline"]
+      }
+    ]
+  }
+}

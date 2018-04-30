@@ -1,0 +1,14 @@
+{
+    "name": "mars/pagebuilder",
+    "description": "Page builder by MARS team",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Chris Arter",
+            "email": "carter@launchthat.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.4"
+    }
+}

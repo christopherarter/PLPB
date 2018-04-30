@@ -1,0 +1,14 @@
+{% set button_id = (button.id) ? ' id="' ~ button.id ~ '"' : null %}
+{% set button_href = (button.href) ? button.href : '#' %}
+{% set button_copy = (button.copy) ? button.copy : 'Learn More' %}
+{% set button_class = 'lt-c-button' %}
+{% set button_attr = '' %}
+{% for modifier in button.modifiers %}
+	{% set button_class = button_class ~ ' lt-c-button--' ~ modifier %}
+{% endfor %}
+{% for key, value in button.attr %}
+	{% set button_attr = button_attr ~ ' ' ~ key ~ '=' ~ value ~ '' %}
+{% endfor %}
+<a href="{{ button_href }}" class="{{ button_class }}"{{ button_attr }}{{ button_id }}>
+	{{ button.before | raw }}{{ button_copy }}{{ button.after | raw }}
+</a>

@@ -1,0 +1,19 @@
+{
+  "siteID" : "drugrehab",
+  "sitename" : "DrugRehab.com",
+  "hero": {
+    "image": "https://www.drugrehab.com/wp-content/themes/dr/images/homepage-background.jpg",
+    "title": "Changing lives through addiction care & education.",
+    "subtitle": null,
+    "description": null,
+    "buttons": [
+      {
+        "copy" : "Get Help Now",
+        "modifiers" : ["white", "large"]
+      },
+      {
+        "modifiers": ["outline", "large"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{% set background_styles = ( hero.image ) ? ' style="background-image: url(' ~ hero.image ~ ')"' : null %}
+<div class="lt-c-hero"{{ background_styles | raw }}>
+	<div class="lt-l-container">
+		<div class="lt-c-hero__content">
+			{% if hero.title %}<h1 class="lt-c-hero__title">{{ hero.title | raw }}</h1>{% endif %}
+			{% if hero.subtitle %}<h2 class="lt-c-hero__subtitle">{{ hero.subtitle | raw }}</h2>{% endif %}
+			{% if hero.description %}<div class="lt-c-hero__description">{{ hero.description | raw }}</div>{% endif %}
+			{% if hero.buttons %}
+			<div class="lt-c-hero__buttons">
+				{% for button in hero.buttons %}
+					{% include "atoms-button-anchor" with { 'button' : button } %}
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

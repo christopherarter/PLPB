@@ -1,0 +1,16 @@
+{
+  "siteID" : "drugwatch",
+  "sitename" : "Drugwatch",
+  "hero": {
+    "image": "https://www.drugwatch.com/wp-content/themes/drugwatch/images/home/bg--homepage.jpg",
+    "title": "Help for people injured by defective drugs and medical devices",
+    "subtitle": null,
+    "description": "<p>Our mission is to provide you with informational resources about drugs and defective devices that harm millions of people every year and to help you take legal action if you’ve been injured.</p>",
+    "buttons": [
+      {
+        "copy" : "Get the help you need",
+        "modifiers" : ["primary", "large"]
+      }
+    ]
+  }
+}

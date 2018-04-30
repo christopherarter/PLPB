@@ -1,0 +1,9 @@
+<div class="{{ siteID | lower }}">
+{% include "organisms-header" %}
+<div role="main">
+	{% block before_content %}{% endblock %}
+	{% block content %}{% endblock %}
+	{% block after_content %}{% endblock %}
+</div><!--End role=main-->
+{% include "organisms-footer" %}
+</div>
